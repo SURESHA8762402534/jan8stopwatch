@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 40vw;
+    height: auto;
+    margin: 200px auto;
+    box-shadow: 0 0 20px rgb(253, 252, 252);
+    border-radius: 10%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background: repeating-linear-gradient(to right, rgb(226, 106, 106), rgb(108, 202, 108), rgb(81, 81, 189) );
+}
+
+#display{
+    font-size: 8rem;
+    display: block;
+    padding-top: 100px;
+    color: white;
+}
+
+#btn{
+    padding-top: 30px;
+}
+#btn1{
+    width: 10vw;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: burlywood;
+    cursor:pointer
+}
+#btn2{
+    width: 10vw;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: cornsilk;
+    margin-left: 30px;
+}
+
+#lap{
+    width: 10vw;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+#btn2:hover{
+    color: white;
+    background-color: blue;
+}
+
+#btn1:hover{
+    color: crimson;
+    background-color: cyan;
+
+}
+
+#lap:hover{
+    color: blue;
+    background-color: rgb(25, 184, 25);
+}
+
+
+.li{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: left;
+    margin-left: 30px;
+    
+}
